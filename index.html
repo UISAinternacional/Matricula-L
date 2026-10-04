@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+      <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jesica Fabiana Bertoli</title>
+      <!-- ✅ FAVICON AGREGADO -->
+    <link rel="icon" href="https://i.ibb.co/fdkhS5bH/Dise-o-sin-t-tulo-1-cropped-processed-by-imagy.png" type="image/png">
+
+    <!-- Etiquetas Open Graph mejoradas para vista previa en redes sociales -->
+    <meta property="og:title" content="Jesica Fabiana Bertoli" />
+    <meta property="og:description" content="Especialista en Psicología Holística (Terapia complementaria) Jesica Fabiana Bertoli." />
+    <meta property="og:image" content="https://i.ibb.co/nqV8cC0K/Especialista-en-Psicolog-a-Hol-stica-e-Hipnosis-Cl-nica-Avanzada-1.png" />
+    <meta property="og:image:type" content="https://i.ibb.co/nqV8cC0K/Especialista-en-Psicolog-a-Hol-stica-e-Hipnosis-Cl-nica-Avanzada-1.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://andinaformaciones.github.io/Biblioteca-Digital/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Asociación de Formación Holística Andina" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jesica Fabiana Bertoli”" />
+    <meta name="twitter:description" content="Especialista en Psicología Holística (Terapia complementaria) Jesica Fabiana Bertoli." />
+    <meta name="twitter:image" content="https://i.ibb.co/nqV8cC0K/Especialista-en-Psicolog-a-Hol-stica-e-Hipnosis-Cl-nica-Avanzada-1.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        /* Animación para la aparición de los elementos */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px); /* Desplazamiento suave hacia arriba */
+            transition: opacity 1.5s ease, transform 1.5s ease; /* Transición más suave */
+        }
+
+        /* Cuando los elementos se cargan */
+        body.loaded .fade-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px solid #444;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .header img {
+            height: 40px; /* Ajustado tamaño del logo */
+            width: 40px;  /* Ajustado tamaño del logo */
+            border-radius: 10px;
+            border: 2px solid #000000;
+            margin-right: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición en el logo */
+        }
+        .header img:hover {
+            transform: scale(1.2); /* Efecto de zoom más grande al pasar sobre el logo */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .header h1 {
+            font-size: 1.6em; /* Tamaño de fuente ajustado */
+            margin: 0;
+            font-family: 'Arial', sans-serif; /* Fuente Arial */
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize; /* Primeras letras en mayúsculas */
+            transition: color 0.3s ease, transform 0.3s ease, letter-spacing 0.3s ease; /* Transición suave */
+        }
+        .header:hover h1 {
+            transform: translateY(-5px); /* Desplazamiento suave hacia arriba */
+            letter-spacing: 2px; /* Aumento del espaciado de letras */
+        }
+        .header:hover {
+            background-color: #333333; /* Cambio de fondo del encabezado */
+            transform: translateY(-5px); /* Desplazamiento hacia arriba del encabezado */
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            text-align: center;
+            background-color: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        }
+        .profile-image {
+            width: 200px;
+            height: 300px;
+            border-radius: 12px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .profile-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+        }
+        h1 {
+            color: #f4f4f4;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+        p {
+            line-height: 1.8;
+            color: #b0b0b0;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            transition: color 0.3s ease;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-links a {
+            display: inline-block;
+            width: 40px; /* Ajustado el tamaño del icono */
+            height: 40px; /* Ajustado el tamaño del icono */
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 50%; /* Mantener el borde redondeado */
+            background-color: #ffffff; /* Fondo blanco */
+            border: 2px solid #ffffff; /* Borde blanco */
+            background-size: cover;
+            box-shadow: none; /* Sin sombra */
+            transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+        }
+        .social-links a:nth-child(1) {
+            background-image: url('https://i.ibb.co/RHhT8Wv/171.png'); /* Reemplazar con el logo de Facebook */
+            border-color: #1424b1; /* Color de borde para Facebook */
+        }
+        .social-links a:nth-child(2) {
+            background-image: url('https://i.ibb.co/XYPLSrS/18.png'); /* Reemplazar con el logo de Instagram */
+            border-color: #d6249f; /* Color de borde para Instagram */
+        }
+        .social-links a:nth-child(3) {
+            background-image: url('https://i.ibb.co/X3Ggb7j/19.jpg'); /* Reemplazar con el logo de WhatsApp */
+            border-color: #25d366; /* Color de borde para WhatsApp */
+        }
+        .social-links a:nth-child(4) {
+            background-image: url('https://i.ibb.co/VJ7Bh3m/gmail-icon-free-png.webp'); /* Reemplazar con el logo de Gmail */
+            border-color: #ffffff; /* Borde blanco para Gmail */
+        }
+        .social-links a:hover {
+            transform: scale(1.1);
+            background-color: #f4f4f4; /* Fondo más claro al pasar el mouse */
+        }
+        .additional-info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #292929;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .additional-info:hover {
+            background-color: #343434;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+        }
+        .additional-info img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .additional-info img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+        }
+        .additional-info p {
+            font-size: 1.1em;
+            color: #c0c0c0;
+            line-height: 1.6;
+            transition: color 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 150px;
+                height: 225px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .additional-info img {
+                max-width: 100%;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+    <div class="header fade-in">
+        <img src="https://i.ibb.co/yN93Dk7/Dise-o-sin-t-tulo-6.jpg" alt="Logo">
+        <h1>Unidad Internacional del Saber y Asociados®</h1>
+    </div>
+    <div class="container fade-in">
+        <img src="https://i.ibb.co/BV5Jw0xX/jkj.png" alt="Foto de perfil" class="profile-image">
+        <h1>Jesica Fabiana Bertoli</h1>
+        <p>
+         
+            Especialista en Psicología Holística (Terapia complementaria)
+            Jesica Fabiana Bertoli. Arteaga Santa fe. Argentina </p>
+            <p>Número de Matricula/Membresía: 284432994-6</p>
+            <p>Intitución formadora: Asociación de Formación Holística Andina®</p>
+       
+
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/andinaformaciones/" title="Facebook"></a>
+            <a href="https://www.instagram.com/volvera_vos_habitarte/" title="Instagram"></a>
+              <a href="https://wa.me/5493467449587" title="WhatsApp"></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jesicabertoli8@gmail.com&su=Consulta&body=Hola,%20me%20gustaría%20saber%20más%20información%20sobre%20la%20disponibilidad%20para%20consultas." title="Gmail"></a>
+        </div>
+        <div class="additional-info fade-in">
+            <img src="https://i.ibb.co/DZ5sbyn/Especialista-en-Psicolog-a-Hol-stica-e-Hipnosis-Cl-nica-Avanzada.webp/800x600" alt="Imagen adicional">
+            <p>ESPECIALISTA EN PSICOLOGÍA HOLÍSTICA (Terapia complementaria)</p>
+            <p>Mi Nombre: Jesica Fabiana Bertoli.</p>
+            <p>1. 
+🌿 VOLVER A VOS
+✨ Espacio de Bienestar Integral
+
+Un espacio para detenerte, escucharte y volver a conectar con vos. 🤍
+
+Soy terapeuta holística, formada en diversas disciplinas vinculadas al bienestar integral, el autoconocimiento, la exploración interior y el desarrollo personal. 🌱
+
+Mi enfoque parte de una mirada holística e integradora del ser humano, contemplando sus dimensiones emocional, mental, energética, corporal y espiritual. ✨ A través de diferentes herramientas y conocimientos, acompaño a cada persona en sus propios procesos, respetando su individualidad, sus tiempos y su experiencia personal.
+
+🎓 Cuento con formación en Academia Andina Formaciones, donde incorporé conocimientos y herramientas de distintas disciplinas, entre ellas hipnosis, herboterapia, aromaterapia, coaching transpersonal y filosofía espiritual holística.
+
+📚 Mi recorrido también integra conocimientos de psicología holística, metafísica existencial holística y filosofía espiritual, tomando elementos de la filosofía antigua y trasladándolos a las experiencias y desafíos de la vida contemporánea.
+
+Desde esta perspectiva, exploro cuestiones relacionadas con el sentido de la existencia, el propósito personal, el autoconocimiento y la relación del ser humano con su propia experiencia de vida. 🕊️
+
+🔮 Asimismo, he incorporado conocimientos vinculados a procesos kármicos y sanación kármica, incluyendo perspectivas sobre dinámicas familiares, de pareja, individuales y colectivas; junto con nociones introductorias de astrología, constelaciones familiares y otras herramientas de exploración personal.</p>
+        <img src="https://i.ibb.co/RkxxN1Ts/817198083-18115634701852116-4018275835117506280-n.jpg" alt="Imagen adicional">
+     <p>🌸 Mis principales propuestas
+
+Mi práctica se encuentra especialmente orientada a experiencias de bienestar, relajación y armonización integral. 🌿
+
+🤲 Reiki
+
+Una práctica energética orientada a favorecer estados de relajación, calma y equilibrio interior.
+
+🎶 Sonoterapia
+
+Una experiencia de bienestar basada en el sonido y las vibraciones como recursos para favorecer la relajación profunda y la conexión con uno mismo.
+
+🔔 Diapasones
+
+Trabajo con frecuencias sonoras como herramienta complementaria dentro de experiencias de armonización y relajación.
+
+🦶 Reflexología Spa
+
+Una propuesta de cuidado corporal y relajación que combina técnicas reflejas con una experiencia de bienestar y descanso.</p>
+
+                
+
+     <p>💫 Mi propósito
+
+Creo que el bienestar también comienza cuando nos permitimos hacer una pausa.
+
+En una vida atravesada por las exigencias, el ritmo acelerado y la constante atención hacia el exterior, crear un espacio para uno mismo puede convertirse en una verdadera forma de cuidado. 🌿
+
+Por eso nace Volver a Vos: como un espacio pensado para acompañarte a bajar el ritmo, conectar con tu interior y recuperar un momento de presencia y bienestar. 🤍
+
+No se trata de darte respuestas, sino de ofrecerte herramientas y un espacio de acompañamiento para que puedas escucharte, reconocerte y volver a encontrarte con vos mismo. ✨</p> 
+       
+
+       <img src="https://i.ibb.co/tpXFQH5Z/Un-espacio-para-volver-a-vos-escucharte-y-regalarte-un-momento-de-bienestar-A-trav-s-de-dist.jpg" alt="Imagen adicional">
+       <p>Un espacio para volver a vos, escucharte y regalarte un momento de bienestar 🌿✨
+
+A través de distintas herramientas y experiencias holísticas, te acompaño a crear un espacio de relajación, conexión y autocuidado.
+
+🌙 Reiki Mariel
+✨ Sonoterapia
+〰️ Diapasones
+🌿 Reflexología
+
+A veces, volver a vos también es hacer una pausa.
+
+📩 Consultas y turnos por mensaje privado.</p>
+       <img src="https://i.ibb.co/v4Pkjt7W/psicolog-a-hol-stica-pdf.png" alt="Imagen adicional">
+     
+            
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+<div style="text-align:center; margin:20px 0;">
+
+    <a href="https://drive.google.com/uc?export=download&amp;id=1VnD2vhkRrN1mXpQAWkqd3aU" target="_blank" download="" style="display: inline-block; padding: 14px 28px; background: rgb(13, 110, 253); color: white; text-decoration: none; border-radius: 10px; font-family: Arial, sans-serif; font-weight: bold; transition: 0.3s;" onmouseover="this.style.background=&#39;#084298&#39;" onmouseout="this.style.background=&#39;#0d6efd&#39;">
+       📄 Perfil Profesional de Jesica Fabiana Bertoli PDF
+    </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+        
+           
+            
+            
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Imagen a través de un enlace con animación</title>
+            <style>
+            /* Estilos para la animación al pasar el mouse */
+            a.image-container {
+              display: inline-block;
+              overflow: hidden;
+              position: relative;
+              perspective: 1000px; /* Para aplicar efectos 3D */
+            }
+            
+            a.image-container img {
+              display: block;
+              overflow: hidden;
+              border-radius: 10px;
+              transition: transform 0.5s ease, box-shadow 0.5s ease, filter 0.5s ease;
+            }
+            
+            a.image-container:hover img {
+              transform: scale(1.05) rotateY(5deg) rotateX(5deg);
+              box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+              filter: blur(3px); /* Efecto de desenfoque */
+            }
+            
+            /* Estilos para el texto de indicación */
+            a.image-container .indication {
+              position: absolute;
+              bottom: 30px;
+              left: 50%;
+              transform: translateX(-50%);
+              background-color: rgba(255, 255, 255, 0.8);
+              padding: 5px 10px;
+              border-radius: 5px;
+              font-size: 14px;
+              color: #333;
+              opacity: 0;
+              transition: opacity 0.3s ease;
+            }
+            
+            a.image-container:hover .indication {
+              opacity: 1;
+            }
+            
+            /* Estilos para la flecha */
+            .arrow {
+              position: absolute;
+              bottom: 10px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+            </style>
+            
+            
+            
+            <!-- Enlace a la imagen con animación -->
+            <a href="https://andinaformaciones.github.io/instituto/?fbclid=IwAR3mAXtvX4R9Ti8i7RENkaaVdedY8C3krtJExIbu0ggzJtahgCgk0NEB8nY_aem_Acu2HfMkGVtjJQSShZP78VUitenOJD-V3S92TpkDU_6Y3z4rMX_j4lbQWViIMuCY3zeVVxeCY0cJgmjTDIzfF5gc" class="image-container">
+                <!-- Imagen -->
+                <img src="https://i.ibb.co/F5xzLfT/Andina-Formaciones.png" alt="Descripción de la imagen" width="300">
+                <!-- Flecha indicativa -->
+             
+                <!-- Indicación -->
+                <span class="indication">Haz clic en la imagen para visitar la web</span>
+            </a>
+            
+            
+            
+            
+            
+            <p>(Haz clic en la imagen para visitar la web)</p>
+            
+            <p>INSTITUCIÓN ACADEMICA Encargada de la Formacion de Leticia Elizabeth Rodriguez</p> 
+            
+
+            <p>Asociación de Formación Holística Andina®</p>
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            document.body.classList.add('loaded');
+        };
+    </script>
+
+
+
+</body></html>
